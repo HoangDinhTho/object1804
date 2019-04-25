@@ -7,5 +7,11 @@ class Point{
         return Math.sqrt(this.x*this.x + this.y*this.y);
     }
 }
-const A = new Point(3,4);
-console.log(A.getDistance());
+class A{
+
+}
+// const A = new Point(3,4);
+// console.log(A.getDistance());
+// module.exports = {classPoint: Point, A}
+
+module.exports = { Point, A, name:'Teo' }
