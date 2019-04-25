@@ -5,8 +5,8 @@ class Person{
      * @param {number} height 
      * @param {object} school 
      */
-    constructor(name, height, school){
-        this.name = name;
+    constructor(txtName, height, school){
+        this.name = txtName;
         this.height = height;
         this.school = school;
     }
@@ -20,5 +20,10 @@ const school = {
 }
 const ti = new Person('Ti',160, school);
 const teo = new Person('Teo',160, {name:'Khoa Pham Training'});
+// console.log(teo.getData())
 
-console.log(teo.getData())
+teo.age = 22;
+// teo.getName(); //false
+console.log(teo)
+
+

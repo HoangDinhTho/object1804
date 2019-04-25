@@ -36,13 +36,13 @@ const ti = new Person('Ti', 160);
 // console.log(ti)
 
 
-// function Product(name, price){
-//     this.name = name;
-//     this.price = price;
-//     function getName(){
-//         return this.name;
-//     }
-// }
+function Product(name, price){
+    this.name = name;
+    this.price = price;
+    function getName(){
+        return this.name;
+    }
+}
 // function getName(){
 //     return 'My name is KPT';
 // }
