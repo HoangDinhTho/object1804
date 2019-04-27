@@ -14,4 +14,4 @@ class A{
 // console.log(A.getDistance());
 // module.exports = {classPoint: Point, A}
 
-module.exports = { Point, A, name:'Teo' }
+module.exports = { Point, A , name:'Teo' }
